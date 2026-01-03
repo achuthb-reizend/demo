@@ -1,0 +1,3 @@
+# --- 3. DEPENDABOT TRIGGER ---
+# This version is from 2018 and is highly insecure.
+requests==2.20.0
