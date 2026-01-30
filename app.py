@@ -6,7 +6,7 @@ app = flask.Flask(__name__)
 
 # --- 1. SECRET SCANNING TRIGGER ---
 # GitHub's "Generic Secret" scanner should pick this up.
-TEST_API_KEY = "xoxb-123456789012-1234567890123-4567890abcdef1234567890a" 
+
 
 @app.route("/run-scan")
 def scan_directory():
